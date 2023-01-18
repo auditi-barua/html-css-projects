@@ -1,0 +1,234 @@
+html{
+    scroll-behavior: smooth;
+}
+*{margin:0; padding: 0; box-sizing:border-box;
+font-family: 'Roboto', sans-serif; }
+
+a{text-decoration: none;}
+
+li{list-style: none;}
+
+/*************** actual css start ****************/
+
+.navbar-brand{
+    color: #000;
+    font-size: 30px;
+    font-weight: bold;
+    padding: 0 100px;
+    
+}
+
+.navbar:before{
+    content: "";
+    position: absolute;
+    top: 0%;
+    bottom: 0%;
+    left: 0;
+    right: 0;
+    opacity: .4;
+    z-index: -1;
+
+
+}
+ 
+
+.navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .show > .nav-link {
+     color: #07c8c0;
+ }
+ .navbar-light .navbar-nav .navbar-link{
+     color: #0000;
+     font-size: 14px;
+     font-family:'Roboto', sans-serif;
+     font-weight: bold;
+ }
+.navbar{
+    width: 100%;
+    height: 100%;
+    color: #dcdcdc;
+}
+ .header{
+     width: 100%;
+    left: 0px;
+    top: 0px;
+    height: 100%;
+    background-color: rgb(229, 229, 229) !important;
+    box-shadow: inset 0px -5px 0px 0px rgb(0 0 0 / 4%)
+ }
+
+ /*************** header part css start ****************/
+ .header-section{
+     width: 100%;
+     background: url(img/02-MARBEL-.png);
+     background-repeat: no-repeat;
+     background-position: center;
+     background-size: cover;
+     position: relative;
+    
+ }
+.header-section .layer-1{
+    left: -160px;
+    top: 123px;
+    width: 100%;
+    height: 800px;
+    z-index: 86;
+}
+
+ .header-section::after{
+     position: absolute;
+     content: '';
+     
+ }
+.banner-part{
+    position: relative;
+    padding-top: 180px;
+    padding-bottom:90px;
+}
+.banner-part h2{
+    font-size: 25px;
+    font-family:'Roboto', sans-serif ;
+    font-weight: 700;
+    color: #ffff;
+
+}
+.banner-part p{
+font-size: 20px;
+font-family: 'Roboto',sans-serif;
+font-weight: 300;
+color: #fff;
+
+}
+.banner-part a{
+    border: 1px solid #0d6efd;
+    font-size:14px;
+    color: #ffff;
+    padding: 8px 15px 12px;
+    background: #0d6efd !important;
+    border-radius:5px;
+
+}
+
+ /***************  header part css end ****************/
+
+
+
+ /***************  slider  part css start ****************/
+.slider{
+    width: 100%;
+    height: 100%;
+    background-color: #ffff;
+}
+.slider-div h2{
+    text-align: left;
+}
+.extra-div{
+    padding-top: 150px;
+    padding-bottom: 80px;
+
+}
+.extra-div p{
+    justify-content: center;
+}
+
+.extra-div .sv-zr {
+   background-color: #6f42c1;
+   border-radius: 50%;
+   width: 90px;
+   height: 90px;
+   line-height: 90px;
+   margin: 0 auto;
+}
+.extra-div .sv-t{
+    background-color: #dc3545;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    margin: 0 auto;
+}
+.extra-div .sv-xr{
+    background-color: #0dcaf0;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    margin: 0 auto;
+
+}
+.extra-div .sv-tr{
+    background-color:#ffc107 ;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    line-height: 90px;
+    margin: 0 auto;
+
+}
+
+.card-body h4{
+    font-size: 10px;
+    color: gray;
+}
+
+ /***************  slider  part css end ****************/
+
+
+
+
+ 
+ /***************  testimonial  part css start ****************/
+ .comment-section{
+     width: 100%;
+     height: 100%;
+     padding: 20px 10px;
+     font-size: 30px;
+     color: #808080;
+     background-color: #dcdcdc;
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+ }
+ .comment-section h2{
+     justify-content: center;
+     font-size: 50px;
+     color: gray;
+     font-family: 'Roboto Slab', serif;
+     font-weight: 400;
+    
+    }
+  
+
+
+
+ 
+ /***************  testimonial  part css end ****************/
+
+
+
+ 
+ /***************  footer  part css start ****************/
+ .footer-section{
+     width: 100%;
+     background: #000;
+     color: rgb(182, 159, 159);
+     font-size: 12px;
+     padding-top: 20px;
+    justify-content: center;
+ }
+ .footer-div{
+     font-size: 15px;
+ }
+
+
+ 
+ /***************  footer part css end ****************/
+
+ 
+
+ 
+
+
+
+
+
+ 
+ 
+ 
